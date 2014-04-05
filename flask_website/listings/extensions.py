@@ -70,6 +70,14 @@ extensions = [
             How to improve: add a better long description to the next release.
         '''
     ),
+    Extension('Flask-Bouncer', 'Jonathan Tushman',
+        description='''
+            <p>Flask declarative authorization leveraging <a href=http://babel.edgewall.org/>bouncer</a>.
+        ''',
+        github='jtushman/flask-bouncer',
+        docs='https://pythonhosted.org/flask-bouncer/',
+        approved=False
+    ),
     Extension('Flask-SQLAlchemy', 'Armin Ronacher',
         description='''
             <p>Adds SQLAlchemy support to Flask.  Quick and easy.
